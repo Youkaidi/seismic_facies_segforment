@@ -1,0 +1,161 @@
+{
+  "method": "current_runs_11",
+  "configuration": {
+    "prediction_dir": "./runs_11/preds_test_npy",
+    "label_volume": "./data/f3_model/test1_labels.npy",
+    "output_dir": "./result/geological_metrics/runs_11_core",
+    "method_name": "current_runs_11",
+    "num_classes": 6,
+    "vertical_axis": -1,
+    "vtpm_smoothing": 0.0,
+    "filename_regex": "^slice_(\\d+)_pred\\.npy$"
+  },
+  "num_sections": 8,
+  "aggregate": {
+    "pixel_accuracy": 0.8611912953483819,
+    "mean_class_accuracy": 0.7757860681543979,
+    "mean_iou": 0.6592430460240993,
+    "frequency_weighted_iou": 0.7674882956271344,
+    "reverse_transition_rate": 0.0007940006964179407,
+    "vtpm_frobenius_to_target": 0.03747940220244222,
+    "vtpm_mse_to_target": 3.901959970701195e-05,
+    "num_transitions": 1424432,
+    "num_traces": 5608
+  },
+  "per_section_statistics": {
+    "pixel_accuracy": {
+      "mean": 0.8611912953483818,
+      "std": 0.05154914989570982
+    },
+    "mean_class_accuracy": {
+      "mean": 0.7807493231045652,
+      "std": 0.06155261908338635
+    },
+    "mean_iou": {
+      "mean": 0.6639993481857642,
+      "std": 0.08411119657671379
+    },
+    "frequency_weighted_iou": {
+      "mean": 0.7712666067104091,
+      "std": 0.08041687406344779
+    },
+    "reverse_transition_rate": {
+      "mean": 0.0007940006964179407,
+      "std": 0.00031881861847510333
+    },
+    "vtpm_frobenius_to_target": {
+      "mean": 0.04055633493578373,
+      "std": 0.006921594522832607
+    },
+    "vtpm_mse_to_target": {
+      "mean": 4.70201326156105e-05,
+      "std": 1.5875208746897778e-05
+    }
+  },
+  "per_section": [
+    {
+      "section_index": 105,
+      "prediction_file": "slice_105_pred.npy",
+      "pixel_accuracy": 0.868249839165338,
+      "mean_class_accuracy": 0.7977571857825257,
+      "mean_iou": 0.6778256288970089,
+      "frequency_weighted_iou": 0.7822786310920232,
+      "reverse_transition_rate": 0.000982847900075258,
+      "vtpm_frobenius_to_target": 0.04065354717650305,
+      "vtpm_mse_to_target": 4.590863605644887e-05,
+      "num_transitions": 178054,
+      "num_traces": 701
+    },
+    {
+      "section_index": 110,
+      "prediction_file": "slice_110_pred.npy",
+      "pixel_accuracy": 0.8769824620290342,
+      "mean_class_accuracy": 0.8041763614953221,
+      "mean_iou": 0.6866418359535653,
+      "frequency_weighted_iou": 0.7987194185032809,
+      "reverse_transition_rate": 0.0009996967212194054,
+      "vtpm_frobenius_to_target": 0.038316846562959944,
+      "vtpm_mse_to_target": 4.0782798070261545e-05,
+      "num_transitions": 178054,
+      "num_traces": 701
+    },
+    {
+      "section_index": 158,
+      "prediction_file": "slice_158_pred.npy",
+      "pixel_accuracy": 0.9126234231210316,
+      "mean_class_accuracy": 0.8008364503307575,
+      "mean_iou": 0.7029214617222759,
+      "frequency_weighted_iou": 0.8515288675478199,
+      "reverse_transition_rate": 0.0005110809080391342,
+      "vtpm_frobenius_to_target": 0.046962345896669234,
+      "vtpm_mse_to_target": 6.126283144773348e-05,
+      "num_transitions": 178054,
+      "num_traces": 701
+    },
+    {
+      "section_index": 199,
+      "prediction_file": "slice_199_pred.npy",
+      "pixel_accuracy": 0.9586025565718441,
+      "mean_class_accuracy": 0.9018895713574997,
+      "mean_iou": 0.8438296114502419,
+      "frequency_weighted_iou": 0.9238535996819606,
+      "reverse_transition_rate": 7.301155829130488e-05,
+      "vtpm_frobenius_to_target": 0.02791083129770289,
+      "vtpm_mse_to_target": 2.1639291770245314e-05,
+      "num_transitions": 178054,
+      "num_traces": 701
+    },
+    {
+      "section_index": 2,
+      "prediction_file": "slice_2_pred.npy",
+      "pixel_accuracy": 0.7961455623618919,
+      "mean_class_accuracy": 0.7418166339816389,
+      "mean_iou": 0.5756404717483822,
+      "frequency_weighted_iou": 0.6787771823792823,
+      "reverse_transition_rate": 0.0008761386994956586,
+      "vtpm_frobenius_to_target": 0.05343884499369952,
+      "vtpm_mse_to_target": 7.932528206279568e-05,
+      "num_transitions": 178054,
+      "num_traces": 701
+    },
+    {
+      "section_index": 33,
+      "prediction_file": "slice_33_pred.npy",
+      "pixel_accuracy": 0.8087773768565915,
+      "mean_class_accuracy": 0.6955456148928586,
+      "mean_iou": 0.5694432274844414,
+      "frequency_weighted_iou": 0.684726782342988,
+      "reverse_transition_rate": 0.000819975962348501,
+      "vtpm_frobenius_to_target": 0.03889334249135854,
+      "vtpm_mse_to_target": 4.201922472639211e-05,
+      "num_transitions": 178054,
+      "num_traces": 701
+    },
+    {
+      "section_index": 53,
+      "prediction_file": "slice_53_pred.npy",
+      "pixel_accuracy": 0.8203574725182512,
+      "mean_class_accuracy": 0.7074711399538492,
+      "mean_iou": 0.5912566322672113,
+      "frequency_weighted_iou": 0.7047089246465921,
+      "reverse_transition_rate": 0.001010929268648837,
+      "vtpm_frobenius_to_target": 0.03762977183501222,
+      "vtpm_mse_to_target": 3.9333325787641084e-05,
+      "num_transitions": 178054,
+      "num_traces": 701
+    },
+    {
+      "section_index": 78,
+      "prediction_file": "slice_78_pred.npy",
+      "pixel_accuracy": 0.8477916701630723,
+      "mean_class_accuracy": 0.79650162704207,
+      "mean_iou": 0.6644359159629867,
+      "frequency_weighted_iou": 0.7455394474893264,
+      "reverse_transition_rate": 0.001078324553225426,
+      "vtpm_frobenius_to_target": 0.04064514923236442,
+      "vtpm_mse_to_target": 4.588967100336593e-05,
+      "num_transitions": 178054,
+      "num_traces": 701
+    }
+  ]
+}

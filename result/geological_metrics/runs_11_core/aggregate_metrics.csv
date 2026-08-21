@@ -1,0 +1,2 @@
+﻿method,num_sections,pixel_accuracy,mean_class_accuracy,mean_iou,frequency_weighted_iou,reverse_transition_rate,vtpm_frobenius_to_target,vtpm_mse_to_target,num_transitions,num_traces
+current_runs_11,8,0.8611912953483819,0.7757860681543979,0.6592430460240993,0.7674882956271344,0.0007940006964179407,0.03747940220244222,3.901959970701195e-05,1424432,5608

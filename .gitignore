@@ -1,0 +1,40 @@
+# IDE与系统文件
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Python缓存与虚拟环境
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# 原始地震数据与大型中间文件
+data/*
+!data/README.md
+*.npy
+*.npz
+*.sgy
+*.segy
+*.zip
+*.vti
+*.sgems
+*.segms
+
+# 模型权重与训练断点
+models/
+*.pth
+*.pt
+*.ckpt
+
+# 不参与论文评价的替换实验目录
+Result2/test1_replace/
+Result2/test2_replace/
+
+# 日志和临时文件
+*.log
+tmp/
+temp/
